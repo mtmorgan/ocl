@@ -1,11 +1,17 @@
 Package: ocl
-Title: OpenCL (e.g., GPU) Computational Algorithms
+Title: Enabling Use of 'OpenCL' (e.g., 'GPU') Computational Algorithms in 'R'
 Version: 0.0.1
 Authors@R:
     person(
-        "Martin", "Morgan", , "Martin.Morgan@RoswellPark.org", role = c("aut", "cre"),
-        comment = c(ORCID = "0000-0002-5874-8148"))
-Description: What the package does (one paragraph).
+        "Martin", "Morgan",
+        email = "Martin.Morgan@RoswellPark.org",
+        role = c("aut", "cre"),
+        comment = c(ORCID = "0000-0002-5874-8148")
+    )
+Description:
+    This ‘proof-of-concept’ package demonstrates use of the R OpenCL
+    package to provide an R-oriented interface to OpenCL
+    implementations provided in the package.
 License: Artistic-2.0
 Imports: OpenCL
 Encoding: UTF-8
